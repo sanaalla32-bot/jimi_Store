@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jimi Store | أحذية جلدية ورياضية</title>
+<meta name="description" content="Jimi Store متجر أحذية جلدية ورياضية. اطلب مباشرة عبر واتساب.">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Lalezar&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Jimi Store - الرئيسية"><img src="images/logo.png" alt="Jimi Store" width="637" height="320"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">القائمة</button>
+    <nav id="nav" class="nav" aria-label="التنقل الرئيسي">
+      <a href="index.html" aria-current="page">الرئيسية</a>
+      <a href="products.html">المنتجات</a>
+      <a href="index.html#contact">تواصل معنا</a>
+    </nav>
+    <a class="btn btn-orange" href="#" target="_blank" rel="noopener" data-wa data-msg="السلام عليكم، عندي استفسار من موقع Jimi Store">اطلب عبر واتساب</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>أحذية جلدية ورياضية لكل يوم</h1>
+        <p>جلد ناعم وخياطة واضحة، ورياضي خفيف ومريح للمشي. اختر الموديل وأطلبه مباشرة عبر واتساب.</p>
+        <div class="hero-actions">
+          <a class="btn btn-orange" href="products.html">تصفح المنتجات</a>
+          <a class="btn btn-line" href="#" target="_blank" rel="noopener" data-wa data-msg="السلام عليكم، أريد أن أطلب حذاء من Jimi Store">اطلب عبر واتساب</a>
+        </div>
+      </div>
+      <div class="stitch-frame hero-photo">
+        <img src="images/store-hero.svg" alt="متجر أحذية من الداخل بطابع سوداني" width="800" height="1000">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap about-grid">
+      <div>
+        <h2>عن المتجر</h2>
+        <p>Jimi Store متجر متخصص في عرض وبيع الأحذية الجلدية والرياضية للرجال.<br>نختار موديلات مريحة في المشي اليومي، من الجلد الرسمي والمركوب إلى الرياضي الخفيف.</p>
+        <p>تجد في صفحة المنتجات كل الموديلات المتاحة بصورها وأسعارها، وتطلب أي موديل مباشرة من واتساب بدون تسجيل أو حساب.</p>
+        <a class="btn btn-dark" href="products.html">شاهد كل الموديلات</a>
+      </div>
+      <ol class="steps">
+        <li><strong>اختر الحذاء</strong><span>تصفح صفحة المنتجات وحدد النوع واللون والموديل الذي يعجبك.</span></li>
+        <li><strong>أرسل طلبك على واتساب</strong><span>زر «اطلب عبر واتساب» يجهز لك رسالة فيها اسم الموديل وكوده وسعره.</span></li>
+        <li><strong>نؤكد معك الطلب</strong><span>نتفق على المقاس وطريقة الاستلام.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section-sand" id="colors">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>تسوق حسب النوع</h2>
+      </div>
+      <div class="color-grid" id="tiles"></div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2>تواصل معنا</h2>
+        <p>أسرع طريقة للطلب أو السؤال عن المقاسات هي واتساب.</p>
+        <a class="phone" href="#" data-phone></a>
+        <div class="contact-actions">
+          <a class="btn btn-orange" href="#" target="_blank" rel="noopener" data-wa data-msg="السلام عليكم، عندي استفسار من موقع Jimi Store">افتح محادثة واتساب</a>
+        </div>
+        <h3 class="loc-title">موقع المتجر</h3>
+        <p class="loc-text" data-address></p>
+        <p class="loc-text" data-hours-wrap hidden>أوقات العمل: <span data-hours></span></p>
+        <a class="btn btn-dark" href="#" target="_blank" rel="noopener" data-maplink>افتح الموقع في خرائط جوجل</a>
+      </div>
+      <div class="form-box">
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">الاسم</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" required placeholder="مثال: أريد الحذاء البني، الكود J-02، مقاس 43"></textarea>
+          </div>
+          <button class="btn btn-dark" type="submit">أرسل عبر واتساب</button>
+          <p class="form-note">عند الضغط يفتح واتساب والرسالة جاهزة، وتضغط إرسال.</p>
+        </form>
+      </div>
+    </div>
+    <div class="wrap map-wrap">
+      <iframe class="map-box" title="موقع المتجر على الخريطة" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-map></iframe>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-motto">أناقتك تبدأ من حذائك</p>
+    <div class="footer-row">
+      <img src="images/logo.png" alt="Jimi Store" width="637" height="320">
+      <p class="tagline">Just Imagine Your Self</p>
+      <p>© <span data-year>2026</span> Jimi Store</p>
+    </div>
+  </div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

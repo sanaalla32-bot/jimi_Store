@@ -1,0 +1,38 @@
+/* ===== بيانات المتجر - عدّل هذا الملف لتغيير المنتجات والأسعار والإعدادات ===== */
+window.STORE = {
+  whatsapp: "249116583108",
+  phone: "0116583108",
+  address: "أم درمان، السودان",
+  hours: "",
+  mapLink: "https://maps.app.goo.gl/gGeRPXxvwex38vxM9",
+  mapQuery: "JF9C+5CW أم درمان السودان",
+  currency: "جنيه",
+  /* للإخفاء بدون حذف: غيّر active إلى false */
+  products: [
+    { code: "J-01", name: "حذاء جلد كاجوال – بيج", type: "leather", color: "beige", price: 190000, image: "images/shoe-beige-wood.jpg", alt: "حذاء جلد بيج على منصة خشبية", w: 1080, h: 918, active: true },
+    { code: "J-02", name: "حذاء جلد كاجوال – بني غامق", type: "leather", color: "brown", price: 190000, image: "images/shoe-brown-poster.jpg", alt: "حذاء جلد بني غامق بنعل أسود", w: 843, h: 1117, active: true },
+    { code: "J-03", name: "حذاء جلد كاجوال – جملي", type: "leather", color: "tan", price: 190000, image: "images/shoe-tan-marble.jpg", alt: "حذاء جلد جملي بنعل بيج", w: 1080, h: 778, active: true },
+    { code: "J-04", name: "حذاء جلد كاجوال – بني", type: "leather", color: "brown", price: 190000, image: "images/shoe-brown-marble.jpg", alt: "حذاء جلد بني بنعل بيج", w: 1080, h: 739, active: true },
+    { code: "J-05", name: "حذاء جلد كاجوال – بيج فاتح", type: "leather", color: "beige", price: 190000, image: "images/shoe-beige-poster.jpg", alt: "حذاء جلد بيج فاتح بنعل بيج", w: 843, h: 1180, active: true },
+    { code: "J-06", name: "حذاء جلد كاجوال – جملي", type: "leather", color: "tan", price: 190000, image: "images/shoe-tan-wood.jpg", alt: "حذاء جلد جملي بنعل أبيض", w: 1080, h: 942, active: true },
+    { code: "J-07", name: "حذاء جلد كاجوال – بيج", type: "leather", color: "beige", price: 190000, image: "images/shoe-beige-marble.jpg", alt: "حذاء جلد بيج مع بطانة مبطنة", w: 1080, h: 778, active: true },
+    { code: "J-08", name: "حذاء جلد كاجوال – بني", type: "leather", color: "brown", price: 190000, image: "images/shoe-brown-loafer.jpg", alt: "حذاء كاجوال بني بجوانب مرنة", w: 864, h: 1080, active: true },
+    { code: "J-09", name: "حذاء جلد كاجوال – أسود", type: "leather", color: "black", price: 190000, image: "images/shoe-black-loafer.jpg", alt: "حذاء كاجوال أسود بجوانب مرنة", w: 864, h: 1080, active: true },
+    { code: "J-10", name: "حذاء جلد برباط – جملي", type: "leather", color: "tan", price: 190000, image: "images/shoe-leather-derby-tan.jpg", alt: "حذاء جلد جملي برباط", w: 720, h: 960, active: true },
+    { code: "J-11", name: "حذاء جلد برباط – بني", type: "leather", color: "brown", price: 190000, image: "images/shoe-leather-derby-brown.jpg", alt: "حذاء جلد بني برباط بنعل أسود", w: 720, h: 960, active: true },
+    { code: "J-12", name: "حذاء جلد برباط – أسود", type: "leather", color: "black", price: 190000, image: "images/shoe-leather-derby-black.jpg", alt: "حذاء جلد أسود برباط", w: 720, h: 960, active: true },
+    { code: "J-13", name: "مركوب جلد – أسود", type: "leather", color: "black", price: 190000, image: "images/shoe-leather-loafer-black.jpg", alt: "مركوب جلد أسود", w: 720, h: 960, active: true },
+    { code: "J-14", name: "مركوب جلد بإبزيم – أسود", type: "leather", color: "black", price: 190000, image: "images/shoe-leather-buckle-black.jpg", alt: "مركوب جلد أسود بإبزيم معدني", w: 720, h: 960, active: true },
+    { code: "J-15", name: "حذاء رياضي بخطوط – رمادي", type: "sport", color: "gray", price: 200000, image: "images/shoe-sport-gray-stripes.jpg", alt: "حذاء رياضي رمادي بثلاثة خطوط سوداء", w: 720, h: 960, active: true },
+    { code: "J-16", name: "حذاء رياضي بخطوط – أسود", type: "sport", color: "black", price: 200000, image: "images/shoe-sport-black-stripes.jpg", alt: "حذاء رياضي أسود بثلاثة خطوط بيضاء", w: 720, h: 960, active: true },
+    { code: "J-17", name: "حذاء رياضي بخطوط – أبيض", type: "sport", color: "white", price: 200000, image: "images/shoe-sport-white-stripes.jpg", alt: "حذاء رياضي أبيض بثلاثة خطوط زرقاء", w: 720, h: 960, active: true },
+    { code: "J-18", name: "حذاء رياضي برباط – أسود", type: "sport", color: "black", price: 230000, image: "images/shoe-sport-black-lace.jpg", alt: "حذاء رياضي أسود بالكامل برباط", w: 720, h: 960, active: true },
+    { code: "J-19", name: "حذاء رياضي برباط – رمادي", type: "sport", color: "gray", price: 230000, image: "images/shoe-sport-gray-lace.jpg", alt: "حذاء رياضي رمادي برباط ونعل رمادي فاتح", w: 720, h: 960, active: true },
+    { code: "J-20", name: "حذاء رياضي برباط – بيج", type: "sport", color: "beige", price: 230000, image: "images/shoe-sport-beige-lace.jpg", alt: "حذاء رياضي بيج برباط", w: 720, h: 960, active: true },
+    { code: "J-21", name: "رياضي شراب – بيج", type: "sport", color: "beige", price: 230000, image: "images/shoe-sport-slipin-taupe.jpg", alt: "حذاء رياضي شراب بيج بدون رباط", w: 720, h: 960, active: true },
+    { code: "J-22", name: "رياضي شراب – رمادي", type: "sport", color: "gray", price: 230000, image: "images/shoe-sport-slipin-gray.jpg", alt: "حذاء رياضي شراب رمادي بدون رباط", w: 720, h: 960, active: true },
+    { code: "J-23", name: "رياضي شراب – أسود", type: "sport", color: "black", price: 230000, image: "images/shoe-sport-slipin-black.jpg", alt: "حذاء رياضي شراب أسود بدون رباط", w: 720, h: 960, active: true },
+    { code: "J-24", name: "رياضي شراب – بني زيتوني", type: "sport", color: "brown", price: 230000, image: "images/shoe-sport-slipin-olive.jpg", alt: "حذاء رياضي شراب بني زيتوني بنعل أبيض", w: 720, h: 960, active: true },
+    { code: "J-25", name: "رياضي شراب – بني", type: "sport", color: "brown", price: 230000, image: "images/shoe-sport-knit-brown.jpg", alt: "حذاء رياضي شراب بني بنعل بيج", w: 720, h: 960, active: true },
+  ]
+};
